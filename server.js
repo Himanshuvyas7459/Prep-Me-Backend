@@ -15,7 +15,7 @@ const app = express()
 
 // MIDDLEWARE
 app.use(cors({
-  origin: "https://prep-me-482b.vercel.app",
+  origin: "https://prep-me-lilac.vercel.app",
   credentials: true
 }))
 app.use(express.json())
